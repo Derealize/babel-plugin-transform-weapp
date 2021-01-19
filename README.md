@@ -1,8 +1,8 @@
-# @babel/plugin-transform-derealize
+# @derealize/plugin-transform-derealize
 
 > Help Derealize edit DOM structure
 
-See our website [@babel/plugin-transform-derealize](https://derealize.com/docs/en/next/babel-plugin-transform-derealize) for more information.
+See our website [@derealize/plugin-transform-derealize](https://derealize.com/docs/en/babel-plugin) for more information.
 
 ## Install
 
