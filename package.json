@@ -1,10 +1,10 @@
 {
-  "name": "@derealize/plugin-transform-derealize",
-  "version": "1.0.0",
-  "description": "Help Derealize edit DOM structure",
+  "name": "@derealize/babel-transform-react",
+  "version": "1.0.1",
+  "description": "Help Derealize App edit DOM structure",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Derealize/babel-plugin-transform-derealize.git"
+    "url": "https://github.com/Derealize/babel-transform-react.git"
   },
   "scripts": {
     "test": "jest --verbose"
@@ -18,13 +18,13 @@
     "babel-plugin"
   ],
   "dependencies": {
-    "@babel/helper-plugin-utils": "^7.10.1",
-    "jest": "^26.6.3"
+    "@babel/helper-plugin-utils": "^7.10.1"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0-0"
   },
   "devDependencies": {
+    "jest": "^26.6.0",
     "@babel/core": "^7.10.1",
     "@babel/plugin-transform-runtime": "^7.12.10",
     "@babel/preset-env": "^7.12.11",

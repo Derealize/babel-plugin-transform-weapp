@@ -9,11 +9,11 @@ See our website [@derealize/plugin-transform-derealize](https://derealize.com/do
 Using npm:
 
 ```sh
-npm install --save-dev @babel/plugin-transform-derealize
+npm install --save-dev @derealize/plugin-transform-derealize
 ```
 
 or using yarn:
 
 ```sh
-yarn add --dev @babel/plugin-transform-derealize
+yarn add --dev @derealize/plugin-transform-derealize
 ```
