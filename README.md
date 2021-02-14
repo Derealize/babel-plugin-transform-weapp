@@ -9,13 +9,13 @@ See our website [@derealize/plugin-transform-derealize](https://derealize.com/do
 Using npm:
 
 ```sh
-npm install --save-dev @derealize/babel-plugin-transform-derealize
+npm install --save-dev @babel/core @derealize/babel-plugin-transform-derealize
 ```
 
 or using yarn:
 
 ```sh
-yarn add --dev @derealize/babel-plugin-transform-derealize
+yarn add --dev @babel/core @derealize/babel-plugin-transform-derealize
 ```
 
 ```json
