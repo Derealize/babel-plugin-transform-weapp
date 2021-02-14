@@ -1,10 +1,10 @@
 {
-  "name": "@derealize/babel-transform-react",
-  "version": "1.0.4",
+  "name": "@derealize/babel-plugin-transform-react",
+  "version": "1.0.5",
   "description": "Help Derealize App edit DOM structure",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Derealize/babel-transform-react.git"
+    "url": "https://github.com/Derealize/babel-plugin-transform-react.git"
   },
   "scripts": {
     "test": "jest --verbose"

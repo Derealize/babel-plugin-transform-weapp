@@ -8,7 +8,7 @@ module.exports = declare((api, options) => {
   api.assertVersion(7);
 
   return {
-    name: 'derealize-babel-transform-react',
+    name: 'babel-plugin-transform-react',
     visitor: {
       JSXOpeningElement(path, state) {
         let file = state.filename.replace(state.cwd + _path.sep, '')
