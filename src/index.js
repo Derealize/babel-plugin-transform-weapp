@@ -6,10 +6,10 @@ const t = core.types
 
 module.exports = declare((api, options) => {
   api.assertVersion(7);
-
+  
   if (process.env.NODE_ENV === 'development') {
     return {
-      name: 'derealize-babel-transform-react',
+      name: 'babel-plugin-transform-react',
       visitor: {
         JSXOpeningElement(path, state) {
           let file = state.filename.replace(state.cwd + _path.sep, '')
@@ -24,7 +24,7 @@ module.exports = declare((api, options) => {
     }
   } else if (process.env.NODE_ENV === 'production') {
     return {
-      name: 'derealize-babel-transform-react',
+      name: 'babel-plugin-transform-react',
       visitor: {
         JSXIdentifier(path) {
           if (path.node.name === 'data-label') {
