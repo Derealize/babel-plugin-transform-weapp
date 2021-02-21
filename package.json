@@ -1,6 +1,6 @@
 {
   "name": "@derealize/babel-transform-react",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Help Derealize App edit DOM structure",
   "repository": {
     "type": "git",
