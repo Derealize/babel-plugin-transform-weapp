@@ -17,7 +17,7 @@ module.exports = declare((api, options) => {
           if (loc) {
             file += `:${loc.start.line}:${loc.start.column}`
           }
-          const attr = t.jsxAttribute(t.jsxIdentifier("dr"), t.stringLiteral(file))
+          const attr = t.jsxAttribute(t.jsxIdentifier("data-code"), t.stringLiteral(file))
           path.node.attributes.push(attr)
         },
       }
