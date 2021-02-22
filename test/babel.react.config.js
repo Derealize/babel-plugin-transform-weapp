@@ -5,7 +5,7 @@ module.exports = {
       {
         runtime: "automatic",
         development: false,
-      }
+      },
     ],
   ],
-}
+};
