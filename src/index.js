@@ -9,7 +9,7 @@ module.exports = declare((api, options) => {
 
   if (process.env.NODE_ENV === "development") {
     return {
-      name: "babel-plugin-transform-react",
+      name: "babel-plugin-transform-weapp",
       visitor: {
         JSXOpeningElement(path, state) {
           let file = state.filename.replace(state.cwd + _path.sep, "");
@@ -18,21 +18,10 @@ module.exports = declare((api, options) => {
             file += `:${loc.start.line}:${loc.start.column}`;
           }
           const attr = t.jsxAttribute(
-            t.jsxIdentifier("data-code"),
+            t.jsxIdentifier("title"),
             t.stringLiteral(file)
           );
           path.node.attributes.push(attr);
-        },
-      },
-    };
-  } else if (process.env.NODE_ENV === "production") {
-    return {
-      name: "babel-plugin-transform-react",
-      visitor: {
-        JSXIdentifier(path) {
-          if (path.node.name === "data-label") {
-            path.parentPath.remove();
-          }
         },
       },
     };
